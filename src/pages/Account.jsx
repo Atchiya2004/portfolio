@@ -6,12 +6,14 @@ function Account() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-blue to-white">
-      <div className="bg-white p-8 rounded shadow text-center">
-        <h2 className="text-2xl font-bold text-blue-800">Account Dashboard</h2>
-        <p className="mt-2 text-gray-700">Welcome! Ready to build your portfolio?</p>
+      <div className="bg-white p-12 rounded-xl shadow-xl text-center w-full max-w-3xl">
+        <h2 className="text-3xl font-bold text-blue-800 mb-4">Account Dashboard</h2>
+        <p className="text-lg text-gray-700 mb-8">
+          Welcome! Ready to build your portfolio?
+        </p>
         <button
           onClick={() => navigate('/info')}
-          className="mt-6 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+          className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
         >
           Gather Portfolio Info
         </button>
